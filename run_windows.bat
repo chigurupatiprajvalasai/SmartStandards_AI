@@ -1,0 +1,6 @@
+@echo off
+echo Installing dependencies...
+python -m pip install -r requirements.txt
+echo Starting SmartStandards AI...
+python -m streamlit run app.py
+pause
